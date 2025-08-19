@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ardenuy - Moda y Estilo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {font-family: 'Roboto', sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333;}
+    header {background:#1a1a1a; color:#fff; padding:20px 0; text-align:center;}
+    header h1 {margin:0; font-size:2.5em;}
+    nav a {color:#fff; margin:0 15px; text-decoration:none; font-weight:500;}
+    section {padding:60px 20px; max-width:1200px; margin:auto;}
+    .banner {background:url('https://via.placeholder.com/1200x400/ff7f50/ffffff?text=Ardenuy+Moda') center/cover no-repeat; height:400px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:2em; font-weight:bold; text-shadow:2px 2px 5px rgba(0,0,0,0.7);}
+    .products {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px;}
+    .product {background:#fff; border-radius:10px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+    .product img {width:100%; display:block;}
+    .product h3 {margin:10px; font-size:1.2em;}
+    .product p {margin:0 10px 10px; font-size:0.95em; color:#555;}
+    .product a {display:block; margin:0 10px 10px; padding:10px; background:#1a1a1a; color:#fff; text-align:center; border-radius:5px; text-decoration:none;}
+    footer {background:#1a1a1a; color:#fff; text-align:center; padding:20px;}
+    form {display:flex; flex-direction:column; gap:10px; max-width:500px; margin:auto;}
+    input, textarea {padding:10px; border-radius:5px; border:1px solid #ccc; font-size:1em;}
+    button {padding:12px; background:#1a1a1a; color:#fff; border:none; border-radius:5px; cursor:pointer; font-size:1em;}
+    button:hover {background:#333;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ardenuy</h1>
+  <nav>
+    <a href="#home">Inicio</a>
+    <a href="#about">Sobre Nosotros</a>
+    <a href="#products">Productos</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+</header>
+
+<section id="home" class="banner">
+  Moda y Estilo Único
+</section>
+
+<section id="about">
+  <h2>Sobre Nosotros</h2>
+  <p>Ardenuy es una tienda especializada en moda urbana y accesorios exclusivos. Nos dedicamos a ofrecer productos de calidad que reflejen tu estilo único.</p>
+  <p>Desde hace años, trabajamos para que cada cliente encuentre piezas que se adapten a su personalidad y estilo de vida.</p>
+</section>
+
+<section id="products">
+  <h2>Productos Destacados</h2>
+  <div class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200/ff7f50/ffffff?text=Chaqueta+Moderna" alt="Chaqueta Moderna">
+      <h3>Chaqueta Moderna</h3>
+      <p>Chaqueta urbana de alta calidad, perfecta para cualquier ocasión.</p>
+      <a href="https://wa.me/XXXXXXXXXXX" target="_blank">Comprar</a>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200/6495ed/ffffff?text=Zapatillas+Exclusivas" alt="Zapatillas Exclusivas">
+      <h3>Zapatillas Exclusivas</h3>
+      <p>Diseño cómodo y único, ideales para destacar en cualquier lugar.</p>
+      <a href="https://wa.me/XXXXXXXXXXX" target="_blank">Comprar</a>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200/ff69b4/ffffff?text=Accesorios+Trendy" alt="Accesorios Trendy">
+      <h3>Accesorios Trendy</h3>
+      <p>Complementos que marcan la diferencia en tu estilo diario.</p>
+      <a href="https://wa.me/XXXXXXXXXXX" target="_blank">Comprar</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contacto</h2>
+  <form>
+    <input type="text" placeholder="Nombre" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Mensaje" rows="4" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+  <p style="text-align:center; margin-top:20px;">Visítanos: Barcelona, España | Síguenos en nuestras redes sociales</p>
+</section>
+
+<footer>
+  &copy; 2025 Ardenuy | Demo Web | Barcelona
+</footer>
+
+</body>
+</html>
